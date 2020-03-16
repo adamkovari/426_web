@@ -1,0 +1,21 @@
+*{
+    font-family: 'Zilla Slab', serif;
+}
+
+body{
+    margin:0;
+    border:0;
+}
+
+.header{
+    background-color: dimgray;
+
+}
+
+.nav-link{
+    color: darkgray;
+}
+.nav-item{
+   padding: 30px;
+    font-size: 20px;
+}

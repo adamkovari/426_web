@@ -8,7 +8,7 @@ body{
 }
 #Réteg_1{ /*nav háttér görbe */
     position: fixed;
-    z-index: -1;
+    z-index: 1;
     top:0;
     margin:0;
     border:0;
@@ -32,6 +32,7 @@ body{
 nav{
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 #nav{
     opacity: 0;
@@ -93,38 +94,80 @@ nav ul li{
 }
 
 .inter_section h1{
-
     padding-top: 2em;
     position: absolute;
     font-size: 3em;
     color: #c4c4c4;
     opacity: 100%;
 }
-.news_container{
-    width:80%;
+.news_section{
+    background: rgba(69, 69, 69, .9);
     margin:10%;
-    height:auto;
-    background-color: dimgray;
-    border: 2px slategrey solid;
-    border-radius: 10px;
+    padding:2em;
+}
+#news_section{
 
 }
-
-.news_item {
-    width: 500px;
-    border: 1px;
+.news_container{
+    margin:10%;
+    background-color: dimgray;
+    border: 2px #353535 solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.news_item{
     padding:1em;
-    overflow: hidden; /* will contain if #first is longer than #second */
-    display: inline-block;
+    opacity: inherit;
+
+}
+.news_titel_date{
+    width:60%;
+    float:left;
 }
 .news_item_left{
-    border: 1px;
-
+    width:60%;
+    float: left;
 }
 .news_item_right{
-    width:300px;
-    height:400px;
-    border: 1px;
-    float:right;
-
+    left:30px;
 }
+.contacts_data_section{
+    padding-top: 12%;
+}
+.contacts_data_container{
+
+    background: rgba(69, 69, 69, .9);
+    width:70%;
+    height:600px;
+    padding:20px;
+}
+.contacts_data_left {
+    position: relative;
+    float: left;
+    width: 44%;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts_data_right{
+    position: relative;
+    float: right;
+    width: 49%;
+    margin: 0;
+    padding: 0;
+}
+.divider{
+    position:absolute;
+    left:50%;
+    top:28%;
+    height:500px;
+    border-left:6px solid rgba(28, 28, 34, 0.91);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#googleMap{
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contacts_content{}

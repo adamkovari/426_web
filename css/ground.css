@@ -4,9 +4,9 @@
 body{
     margin:0;
     border:0;
-    height: 1400px;
+    width:100%;
 }
-#Réteg_1{
+#Réteg_1{ /*nav háttér görbe */
     position: fixed;
     z-index: -1;
     top:0;
@@ -14,12 +14,27 @@ body{
     border:0;
     padding:0;
     width:100%;
-    opacity: 30%;
+    opacity: 0;
+}
+#Réteg_2{
+    position: relative;
+    z-index: -1;
+    top:0;
+    margin:0;
+    border:0;
+    padding:0;
+    width:100%;
+    opacity: 50%;
+
+
 }
 
 nav{
     width: 100%;
     position: fixed;
+}
+#nav{
+    opacity: 0;
 }
 nav ul li{
     display: inline-block;
@@ -46,32 +61,49 @@ nav ul li{
     padding: 2%;
     font-size: 20px;
 }
+.opening_view_section{
+    width:100%;
+}
 .opening-view-container{
     text-align: center;
-    height:100%;
 }
 .opening-view{
     display: inline-block;
-    margin-top: 20%;
+    margin-top: 25%;
+    margin-bottom: 25%;
     background-color: #c4c4c4;
-    opacity: 50%;
+    opacity: 0 ;
     width: 50%;
-    font-size: 45px;
+    font-size: 3em;
     text-align: center;
-    height:100%;
+
 }
-.news{
+.news_section{
+    height:1000px;
+}
+.news_container{
+    margin:10%;
     text-align: center;
-    padding-top: 100%;
-    overflow: hidden;
+    background-color: white;
+    opacity: 50%;
 }
 .news_object{
     display: inline-block;
-    margin-top: 10%;
     width: 70%;
-    background-color: #c4c4c4;
-    opacity: 50%;
     font-size: 15px;
     text-align: center;
+}
+
+.inter_container{
+    text-align: center;
+    position: relative;
+}
+
+.inter_section h1{
+    padding:10px;
+    position: absolute;
+    font-size: 3em;
+    color: #c4c4c4;
+    opacity: 100%;
 
 }

@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:500&display=swap" rel="stylesheet">
 
-
+    <script src="js/js.js"></script>
 
 </head>
-<body style="background-image: url('images/background_3.jpg'); background-size: cover; ">
+<body style="background-image: url('images/background_3.jpg'); background-size: contain; ">
 <svg id="Réteg_1" data-name="Réteg 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 101.5"><defs><style>.cls-1{fill:#c4c4c4;}</style></defs><title>header_background</title><path class="cls-1" d="M1399.5-.5V101C876.5,26.85.5,90.67.5,90.67V-.5Z" transform="translate(-0.5 0.5)"/></svg>
 
-
-<nav >
+<section class="opening_view_section">
+<nav id="nav">
         <ul class="nav justify-content-center">
             <li  style="padding: 1% ;width: 15%">
                <a href="https://www.cserkesz.hu" style="margin: 20px">
@@ -55,25 +55,40 @@
             </li>
         </ul>
 </nav>
-<section>
+</section>
+<section >
     <div class="opening-view-container" >
-        <div class="opening-view">
+        <div class="opening-view" id="bipi">
             <p >
                 “A boldogsághoz vezető igazi út az, ha másokat teszünk boldoggá.”
                 Bi-Pi
             </p>
+
         </div>
+        <svg id="Réteg_2" data-name="Réteg 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 101.5"><defs><style>.cls-1{fill:#c4c4c4;}</style></defs><title>inter_section_top</title><path class="cls-1" d="M0,101.5V0C523,74.15,1399,10.33,1399,10.33V101.5Z" transform="translate(0 0)"/></svg>
+
     </div>
 </section>
-<section>
-    <div class="news">
-        <div class="news_object">
-            <p>
-                Lorem ipsum
-            </p>
-        </div>
+<section class="inter_section">
+    <div class="nav justify-content-center">
+        <h1 style="color: #353535">Hírek</h1>
+        <svg id="Réteg_2" data-name="Réteg 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 101.5"><defs><style>.cls-1{fill:#c4c4c4;}</style></defs><title>inter_section_bottom</title><path class="cls-1" d="M1408-204v101.5C885-176.64,9-112.82,9-112.82V-204Z" transform="translate(-9 203.99)"/></svg>
     </div>
+</section>
+<section class="news_section">
+
+    <div class="news_container">
+            <div class="news_object" >
+                <
+            </div>
+    </div>
+
 </section>
 
+<script>
+    startShowing_nav();
+    startShowing_bipi();
+    startShowing_nav_background();
+</script>
 </body>
 </html>

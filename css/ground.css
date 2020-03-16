@@ -59,7 +59,7 @@ nav ul li{
 }
 .nav-item{
     padding: 2%;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 .opening_view_section{
     width:100%;
@@ -78,21 +78,14 @@ nav ul li{
     text-align: center;
 
 }
-.news_section{
-    height:1000px;
-}
-.news_container{
-    margin:10%;
-    text-align: center;
-    background-color: white;
-    opacity: 50%;
-}
-.news_object{
-    display: inline-block;
-    width: 70%;
-    font-size: 15px;
-    text-align: center;
-}
+
+
+/*.news_item{*/
+    /*display: inline-block;*/
+    /*width: 70%;*/
+    /*font-size: 15px;*/
+    /*text-align: center;*/
+/*}*/
 
 .inter_container{
     text-align: center;
@@ -100,10 +93,38 @@ nav ul li{
 }
 
 .inter_section h1{
-    padding:10px;
+
+    padding-top: 2em;
     position: absolute;
     font-size: 3em;
     color: #c4c4c4;
     opacity: 100%;
+}
+.news_container{
+    width:80%;
+    margin:10%;
+    height:auto;
+    background-color: dimgray;
+    border: 2px slategrey solid;
+    border-radius: 10px;
+
+}
+
+.news_item {
+    width: 500px;
+    border: 1px;
+    padding:1em;
+    overflow: hidden; /* will contain if #first is longer than #second */
+    display: inline-block;
+}
+.news_item_left{
+    border: 1px;
+
+}
+.news_item_right{
+    width:300px;
+    height:400px;
+    border: 1px;
+    float:right;
 
 }

@@ -136,7 +136,7 @@ nav ul li{
 }
 .contacts_data_container{
 
-    background: rgba(69, 69, 69, .9);
+    background: rgba(94, 94, 94, 0.9);
     width:70%;
     height:600px;
     padding:20px;
@@ -170,4 +170,31 @@ nav ul li{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.contacts_content{}
+.about_data_section{
+    padding-top: 12%;
+}
+.about_data_container{
+
+    background: rgba(140, 140, 140, 0.8);
+    width:70%;
+    height:500px;
+    padding:20px;
+    text-align: center;
+}
+.about_horizontal_line{
+    border: 3px rgba(28, 28, 34, 0.91) solid;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:65%;
+}
+.section {
+    font-size: 3em;
+
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+.about_background{
+    filter:blur(8px);
+
+}
